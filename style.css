@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #3860aa;
+}
+
+.cabecalho{
+   background-color: #faf7;
+   padding: 25px;
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.cabecalho form input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    margin: 10px;
+    height: 70%;
+    border-radius: 5px;
+}
+
+.title-header{
+    color: #c7a008;
+    margin: 5px 10px;
+}
+
+.cabecalho form button{
+    outline: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    width: 50px;
+    margin-left: 10px;
+}
+
+.pokemons{
+    padding: 20px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.img-container{
+    background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	text-align: center;
+    margin: auto;
+    padding: 5px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 15px;
+}
+
+.pokemon{
+	background-color: #eee;
+	border-radius: 20px;
+	box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+    width: 200px;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.753);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.pokemon .name {
+	margin: 15px 0 7px;
+	letter-spacing: 1px;
+}
+
+.pokemon .info {
+	margin-top: 20px;
+}
+
+.pokemon .number {
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	font-size: 0.8em;
+	padding: 5px 10px;
+}

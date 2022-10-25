@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pokédex</title>
+</head>
+<body>
+
+    <header class="cabecalho">
+       <div class="title-header">
+        <h1>POKEDEX</h1>
+       </div>
+        <form class="form" id="searchPokemon">
+            <input type="text" class="searchBox" id="search" placeholder="numero ou id do pokémon">
+            <button class="btn" id="searchButton" value="SEARCH"><img src="img/icons8-pokebola-96-removebg-preview.png" alt="pokebola-submit"></button>
+        </form>
+    </header>
+        <main class="pokemons" id="pokecontent" onclick="exitModal()">
+            <div class="container"></div>
+        </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
